@@ -1,0 +1,33 @@
+ <html>
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A Minimalist People Counter built in HTML, CSS and Javascript">
+        <meta name="Author" content="Fakhar E Alam">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+    	<div class="main">
+        	<div class="section1">
+            	<div class="text">
+                  <h1 id="people-el">People Entered:</h1>
+                  <h1 id="num-el">0</h1>
+                </div>
+                <div class="btnz">
+                	<button id="reset-btn" onclick="reset()">Reset</button>
+                    <button id="increment" onclick="increment()">Increment</button>
+                    <button id="save" onclick="save()">Save</button>
+                </div>
+            </div>
+            <div class="section2">
+            	<p>Previous Entries:<span id="entries-el"></span></p>
+            </div>
+            <div class="section3">
+            	<p>Total Entries:<span id="sum-el"></span></p>
+            </div>
+            
+        </div>
+    	<script src="node.js"></script>
+    </body>
+</html>

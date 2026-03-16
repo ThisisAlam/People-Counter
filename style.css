@@ -1,0 +1,128 @@
+     	    body {
+            	font-family: Arial, sans-serif;
+            }
+        	.main {
+            	display:flex;
+                justify-content:center;
+                align-items:center;
+                flex-direction:column;
+            	position:relative;
+                gap:10px;
+                height:550px;
+                width:500px;
+                margin-left:auto;
+                margin-right:auto;
+                border:3px dashed grey;
+                border-radius:20px;
+                text-align:center;
+                padding:15px;
+                margin-top:30px;
+            }
+            .section1 {
+            	display:flex;
+                justify-content:center;
+                align-items:center;
+                flex-direction:column;
+            	position:relative;
+                height:400px;
+                width:100%;
+                background: #F6F6F6;
+                border:2px solid black;
+                border-radius:15px;
+                transition: transform 0.3s ease;
+            }
+            .section1:hover {
+            	transform: scale(1.01);
+            }
+            .section1 .text {
+            	margin-top:10px;
+            	font-size:22px;		
+            }
+            .text #num-el {
+            	font-size:70px;
+            }
+            .section1 .btnz {
+            	display:flex;
+                justify-content:center;
+                align-items:center;
+                flex-direction:row;
+            	position:relative;
+                gap:20px;
+                height:100px;
+                width:100%;
+            }
+            .btnz button {
+            	width:170px;
+                height:50px;
+                font-size:25px;
+            	border:2px solid black;
+                border-radius:8px;
+                background: white;
+                transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease, color 0.3s ease;
+            }
+            .btnz button:hover {
+            	transform: translateY(-3px);
+                box-shadow: 0 2px 3px grey;
+                background: #212121;
+                color: white;
+            }
+            .btnz button:active {
+            	transform: translateY(3px);
+                box-shadow: 0 -1px 4px grey;  
+            }
+            .btnz #save:active {
+                background: #6e6e6e;
+            }
+            #reset-btn {
+            	position:relative;
+            	border-radius:10px;
+                width:80px;
+                height:50px;
+                font-size:15px;
+                font-weight:bold;
+                background: #D3D3D3;
+            }
+            #reset-btn:hover {
+            	color: black;
+            }
+            .section2 {
+            	display:flex;
+                justify-content:center;
+                align-items:center;
+            	position:relative;
+                height:75px;
+                width:100%;
+                background: #F6F6F6;
+                border:2px solid black;
+                border-radius:15px;
+                transition: transform 0.3s ease;
+            }
+            .section2:hover {
+            	transform: scale(1.01);
+            }
+            .section2 p {
+            	font-size:18px;
+                font-weight:bold;
+                max-width:400px;
+                max-height:100px;
+                overflow:hidden;
+            }
+            .section3 {
+            	display:flex;
+                justify-content:center;
+                align-items:center;
+            	position:relative;
+                height:75px;
+                width:100%;
+                background: #F6F6F6;
+                border:2px solid black;
+                border-radius:15px;
+                transition: transform 0.3s ease;
+            }
+            .section3:hover {
+            	transform: scale(1.01);
+            }
+            .section3 p {
+            	font-size:18px;
+                font-weight:bold;
+            }
